@@ -565,7 +565,7 @@
     }
 
     /* ─── APPS ─── */
-    #ai {
+    #ai, #mac {
       padding: 120px 10vw;
       background: linear-gradient(180deg, transparent, rgba(199,92,235,0.03), transparent);
     }
@@ -769,7 +769,7 @@
       nav { padding: 16px 24px; }
       .nav-links { display: none; }
       #hero { padding: 0 6vw; padding-top: 80px; }
-      #about, #experience, #opensource, #ai, #apps, #contact { padding: 80px 6vw; }
+      #about, #experience, #opensource, #ai, #mac, #apps, #contact { padding: 80px 6vw; }
       .hero-stats { gap: 28px; }
       .oss-hero { grid-template-columns: 1fr; gap: 24px; }
       .contact-card { padding: 40px 24px; }
@@ -811,6 +811,7 @@
   <ul class="nav-links">
     <li><a href="#experience">Experience</a></li>
     <li><a href="#ai">AI</a></li>
+    <li><a href="#mac">Mac</a></li>
     <li><a href="#apps">Apps</a></li>
     <li><a href="#opensource">Open Source</a></li>
     <li><a href="#about">Stack</a></li>
@@ -1074,9 +1075,76 @@
         <span class="tech-tag">On-Device ML</span>
         <span class="tech-tag">Git</span>
       </div>
-      <span class="app-link" style="margin-top: 20px; color: var(--muted); cursor: default;">
-        In development
-      </span>
+      <a href="https://rift.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        Coming soon · rift.coursion.studio →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MORE MAC APPS -->
+<section id="mac">
+  <div class="reveal">
+    <div class="section-label">Coursion Studio</div>
+    <h2 class="section-title">More Native Mac Apps</h2>
+  </div>
+
+  <div class="apps-grid">
+    <div class="app-card reveal">
+      <div class="app-icon"><img src="images/cadence.png" alt="Cadence icon" /></div>
+      <div class="app-name">Cadence</div>
+      <div class="app-desc">Free native calendar for Mac and iPhone. Answer invitations in place through your own Google, Microsoft or iCloud account, see conflicts side by side, and join the next call from the menu bar with a one-click Join.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">EventKit</span>
+        <span class="tech-tag">WidgetKit</span>
+        <span class="tech-tag">Live Activity</span>
+      </div>
+      <a href="https://cadence.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        cadence.coursion.studio →
+      </a>
+    </div>
+    <div class="app-card reveal" style="animation-delay: 0.1s">
+      <div class="app-icon"><img src="images/cue.webp" alt="Cue icon" /></div>
+      <div class="app-name">Cue</div>
+      <div class="app-desc">Free native macOS terminal with a real input bar: every command comes back as its own card with exit code and timing, plus a ⌘K palette, a Quick Terminal from anywhere, project tasks and version control, and your own Claude one keystroke away.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">Terminal</span>
+        <span class="tech-tag">Claude Code</span>
+      </div>
+      <a href="https://cue.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        cue.coursion.studio →
+      </a>
+    </div>
+    <div class="app-card reveal" style="animation-delay: 0.2s">
+      <div class="app-icon"><img src="images/dpm.webp" alt="Device Performance Monitor icon" /></div>
+      <div class="app-name">Device Performance Monitor</div>
+      <div class="app-desc">Native macOS app that watches live memory, CPU, threads and frame rate of one app on an Android phone, the iOS Simulator or a real iPhone — with AI session analysis, a device toolbox and a <code>dpm</code> command line for CI and agents.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">Profiling</span>
+        <span class="tech-tag">CLI</span>
+      </div>
+      <a href="https://dpm.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        dpm.coursion.studio →
+      </a>
+    </div>
+    <div class="app-card reveal" style="animation-delay: 0.3s">
+      <div class="app-icon"><img src="images/vista.webp" alt="Vista icon" /></div>
+      <div class="app-name">Vista</div>
+      <div class="app-desc">Menu bar app that keeps two break rhythms on separate clocks: rest your eyes every 20 minutes, leave your chair every 45. It dims your screens when a break is due and waits if you are in a call.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">Menu Bar</span>
+      </div>
+      <a href="https://vista.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        vista.coursion.studio →
+      </a>
     </div>
   </div>
 </section>
@@ -1090,10 +1158,10 @@
 
   <div class="apps-grid">
     <div class="app-card reveal">
-      <div class="app-icon"><img src="images/nutrify.png" alt="Nutrify icon" /></div>
-      <div class="app-name">Nutrify</div>
-      <div class="app-desc">Supplement & wellness tracking app with AI-assisted features for supplement schedule planning, intake flows, and personalized wellness guidance.</div>
-      <a href="https://apps.apple.com/us/app/nutrify-supplement-tracker/id6753355163" target="_blank" class="app-link">
+      <div class="app-icon"><img src="images/sage.webp" alt="Sage icon" /></div>
+      <div class="app-name">Sage</div>
+      <div class="app-desc">Operating system for your body: Apple Health turned into daily Recovery, Sleep and Energy scores, with supplements, water, fasting and routines tracked and an AI coach to suggest what to change next. Formerly Nutrify.</div>
+      <a href="https://apps.apple.com/us/app/id6753355163" target="_blank" class="app-link">
         View on App Store →
       </a>
     </div>
@@ -1101,12 +1169,11 @@
     <div class="app-card reveal" style="animation-delay: 0.1s">
       <div class="app-icon"><img src="images/noty.png" alt="Noty icon" /></div>
       <div class="app-name">Noty</div>
-      <div class="app-desc">Daily planning and todo app focused on simple productivity, routines, and habit/streak-friendly workflows. Ongoing AI feature enhancements.</div>
-      <a href="https://apps.apple.com/us/app/noty-planning-your-day/id1620951759" target="_blank" class="app-link">
+      <div class="app-desc">Daily planner that resets at midnight, so there is no backlog waiting for you. Ask it to plan your morning or find a slot for the gym and it fits the day around you.</div>
+      <a href="https://apps.apple.com/us/app/noty-ai-daily-planner-focus/id1620951759" target="_blank" class="app-link">
         View on App Store →
       </a>
     </div>
-
 
   </div>
 </section>

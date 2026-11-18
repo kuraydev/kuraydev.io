@@ -27,7 +27,7 @@ A single-page portfolio built with vanilla HTML, CSS, and JavaScript — no fram
 | **Expertise** | Skills grouped by category — Languages, Frameworks, AI & LLMs, Backend, and more |
 | **Experience** | Timeline — Albert AB (Lead Engineer) & Parabol (Senior Engineer) |
 | **Open Source** | 8M+ downloads, 100+ libraries, top packages |
-| **Apps** | Indie apps — Nutrify, Noty, Shoppy |
+| **Apps** | Indie mobile apps — Sage, Noty |
 | **Contact** | Email, GitHub, LinkedIn |
 
 ---
@@ -79,9 +79,8 @@ Mobile platform lead on **Albert Junior** — a math education app for children.
 
 | App | Description |
 |---|---|
-| [Nutrify](https://apps.apple.com/us/app/nutrify-supplement-tracker/id6753355163) | Supplement & wellness tracker with AI features |
-| [Noty](https://apps.apple.com/us/app/noty-planning-your-day/id1620951759) | Daily planning & habit tracker |
-| [Shoppy](https://apps.apple.com/us/app/shoppy-shopping-list/id1621044552) | Smart shopping list app |
+| [Sage](https://apps.apple.com/us/app/id6753355163) | Apple Health scores, supplements and an AI coach (formerly Nutrify) |
+| [Noty](https://apps.apple.com/us/app/noty-ai-daily-planner-focus/id1620951759) | Daily planning & habit tracker |
 
 ---
 
