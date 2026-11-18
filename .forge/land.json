@@ -1,0 +1,3 @@
+{
+  "verify": "grep -q \"section id=.mac\" index.html && ! grep -qiE \"shoppy|nailai|foyer\" index.html"
+}
